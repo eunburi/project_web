@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3강 표 스타일 연습문제</title>
+    <style>
+        table,td{
+            border: 1px solid gray;
+            height: 40px;
+            text-align: center;
+            width: 400px;
+            margin: 50px auto;
+        }
+
+        td{
+            padding: 20px;
+        
+        }
+
+        caption{
+            margin: 10px;
+        }
+        /* (:가상 선택자) */
+        td:nth-child(1){width: 150px;
+            font-weight: bold;}
+        /* background-color: bisque;} */
+
+        .wrap{
+            width: 800px ; margin: 20px auto; text-align: center;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <a href="https://www.naver.com">네이버</a>
+     <table>
+        
+        <caption>재무상태표</caption>
+        <!-- <colgroup>
+            <col style="width: 100px; background-color: beige;">
+            <col>
+        </colgroup> -->
+        <tr>
+            <td rowspan="2">자산:현금,현금외자산</td>
+            <td>부채:차입금</td>
+        </tr>
+
+        <tr>
+            
+            <td>자본:자본금,이익잉여금</td>
+        </tr>
+
+        </table>
+    </div>
+</body>
+</html>
