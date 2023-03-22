@@ -22,8 +22,11 @@ ul{
 
 ul li{
     display: inline-block;
-    margin: 20px;
-    padding: 10px 0px;
+    /* margin: 20px; */
+    /* padding: 10px 0px; */
+    /* 수직정렬 - height와 같으면 가운데정렬 */
+    margin: 0 20px;
+    line-height: 80px;
 }
 
 a {

@@ -1,0 +1,24 @@
+ul li{
+    list-style: none;
+    
+}
+
+fieldset{
+    width: 520px;
+    border: 1px;
+    
+}
+
+.button{
+    margin-left: 15px;}
+
+legend{
+   font-weight: bold;
+}
+
+#container{
+    width:520px;
+    margin: 10px auto;
+    border: 1px solid #222
+    padding 20px;
+}
