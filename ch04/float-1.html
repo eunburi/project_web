@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float 속성</title>
+    <style>
+
+        #wrap{
+            width: 1000px;
+            margin: 0 auto;
+            height: 100px;
+
+        }
+        div{
+            margin: 10PX;
+            padding: 10px;
+            /* float: right; */
+            /* display: inline-block */
+        }
+        .box1{
+            background: #00F;
+            
+            
+            float: left;
+        }
+
+        .box2{
+            background: #f00;
+            
+            float: left;
+        }
+
+        .box3{
+            background: #f0f;
+            float: right;
+        }
+        
+        .box4{
+            background: #0f0;
+            /* float: right; */
+            /* 속성 해제  - 위에 있는 box3 오른쪽 배치 속성을 지님 (종류 : both,right,left)*/
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+     <div class="box1"> 박스1 </div>
+     <div class="box2"> 박스2 </div>
+     <div class="box3"> 박스3 </div>
+     <div class="box4"> 박스4 </div>
+    </div>
+</body>
+</html>

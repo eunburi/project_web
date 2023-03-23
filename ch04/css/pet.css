@@ -1,0 +1,59 @@
+*{margin: 0; padding: 0;}
+
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+h2{
+    color: blue;
+}
+
+/* header 영역 스타일 */
+header{
+    /* width생략 - 1000px 사용 */
+    height: 80px;
+    background-color: #3f3786;
+}
+
+header #logo{
+    width: 200px; float: left;
+    line-height: 80px;
+
+}
+
+ header h1{color: #fff; padding-left: 20px;}
+
+ #logo_a{
+
+ }
+
+header nav{
+    width: 750px;
+    float: right;
+    line-height: 80px;
+}
+
+
+nav ul{
+    list-style: none;
+    margin-right: 60px;
+}
+
+nav ul li{
+    float: right;
+}
+
+a{
+    display: block;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #2fb2fb;
+}
+
+section h2{
+    margin: 20px;
+}
