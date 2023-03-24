@@ -1,0 +1,172 @@
+/* 전체 스타일 */
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* 16:9 화면상 1600px로 설정 */
+#container
+{   width: 100%;
+    margin: 0 auto;
+    /* box-sizing: border-box; */
+}
+
+main{
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box; 
+}
+
+/* header영역 스타일 */
+header{
+    height: 80px;
+    background-color: #036635
+}
+
+header #logo{
+    width: 300px;
+    float: left;
+    padding-left: 30px;
+    line-height: 80px;
+}
+
+#logo h1 a{
+    color: #fdfd96;
+    text-decoration: none;
+}
+
+nav{
+    width: 800px;
+    float: right;
+    line-height: 80px;
+    /* text-align: left;
+    margin-right: 100px; */
+    
+}
+nav #topMenu {list-style: none;}
+
+#topMenu li{
+    display: inline-block;
+padding: 0 20px;}
+
+#topMenu li a{
+    color: white;
+    text-decoration: none;
+}
+
+#topMenu li a:hover{
+    color: #fdfd96;
+}
+
+/* main 영역 */
+#contents section{
+    margin: 30px 10px;
+}
+
+section div{ margin: 10px;}
+
+section p{line-height: 2;}
+/* section의 높이를 지정해야함 */
+#healing, #activity{height: 300px;}
+
+#healing img, #activity img{
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;}
+
+.schedule h3{
+    margin-top: 20px;
+}
+
+.schedule ul li{
+  list-style: none;
+  margin: 10px;
+}
+
+#sightseeing ul li{
+    list-style: square;
+    margin: 10px 30px;
+}
+#sightseeing ul li a{text-decoration: none;
+color: #036635;}
+
+#sightseeing ul li a:hover{
+text-decoration: underline;
+color: #fdfd96;}
+
+/* footer 영역 스타일 */
+footer{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    border-top: 2px solid #555;
+}
+
+footer #bottomMenu{ list-style: none;
+padding: 20px;}
+
+#bottomMenu li{
+    display: inline-block;
+    margin: 0;
+    border-right: 1px solid #444; 
+    padding: 0 10px;
+}
+#bottomMenu li a{text-decoration: none;
+color: #444;}
+
+#bottomMenu li:last-child{
+    border: none;}
+/* #bottomMenu li:nth-child(4){border: none;} */
+
+/* product 스타일 */
+#product p{
+    line-height: 2;
+}
+
+#prodoct h2{
+    margin-bottom: 2px;
+}
+
+#description{
+    width: 800px;
+    margin: 30px auto;
+    padding: 20px 60px;
+    border:  1px dotted #ccc;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;}
+
+#description img{
+    margin : 0px 10px 10px 10px;
+    border-radius: 10px;}
+
+#recipe{
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 60px;
+    border: 1px dotted #ccc;
+}
+
+#recipe ol{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+#recipe ol li{line-height: 1.7;}
+
+#package{
+    width: 800px;
+    margin: 30px auto;
+    padding: 20px 60px;
+    border:  1px dotted #ccc;
+    border-bottom: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#package table, th, td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 10px 20px;    
+}
+
+
+
