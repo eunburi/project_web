@@ -12,18 +12,37 @@
 
         }
 
-        #content{
-            width: 500px;
-        }
+        #content{width: 800px; margin: auto;}
 
         #fix{
-            width: 100px;
-            height: 160px;
-            background: url("./images/bg3.png");
-            /* 브라우저 기준이면 스크롤을 내려도 그대로 노출함 */
+            width: 160px;
             position: fixed;
-            top: 20px;
-            right: 20px;
+            top: 50px;
+            right: 100px;
+            border: 3px solid green;
+            border-radius: 5px;
+        }
+
+        #fix .cs-center h4{
+           margin: 10px 15px; 
+           background: url("./images/dot.png") no-repeat left ;
+           padding-left: 20px;
+        }
+        
+        .cs-center p{padding-left: 20px;
+        color: red; font-weight: bold;}
+        
+
+        .cs-center ul {
+            list-style: square;
+            margin: 0;
+            padding: 20px;
+        }
+       
+
+        .cs-ceter ul li{
+            font-size: 0.7em;
+            margin: 10px 10px 10px 15px;
         }
 
 
@@ -68,7 +87,16 @@
                 브라우저창을 스크롤 하더라도 계속 고정되어 표시합니다.
             </p>
         </div>
-        <div id="fix"> </div>
+        <div id="fix"> 
+            <div class="cs-center">
+                <h4>문의전화</h4>
+                <p>02-1234-5678</p>
+                <ul>
+                    <li>평일 : 09:00~18:00</li>
+                    <li>주말 : 09:00~13:00</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </body>
 </html>

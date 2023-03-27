@@ -1,4 +1,6 @@
 /* 전체 스타일 */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap');
+
 *{
     margin: 0 auto;
     padding: 0;
@@ -33,6 +35,7 @@ header #logo{
 #logo h1 a{
     color: #fdfd96;
     text-decoration: none;
+    font-family: Merienda;
 }
 
 nav{
@@ -168,5 +171,74 @@ color: #444;}
     padding: 10px 20px;    
 }
 
+/* q & a 스타일*/
+#board section h2{
+    margin: 30px 10px;
+    text-align: center;
+}
 
+#board #tbl_board {
+    border: 1.5px solid #036635;
+    border-collapse: collapse;
+    width: 800px;
+    margin: 0 auto 20px auto;
+            }
 
+#tbl_board thead{background-color: #fdfd96;}
+
+#tbl_board td:nth-child(1), 
+    td:nth-child(3), td:nth-child(4),td{
+    text-align: center;
+}
+
+#tbl_board td:nth-child(1){
+    width: 50px;
+}
+/* 위(bl_board td:nth-child)와 같음 */
+/* #tabl_board td:first-child{width: 50px;} */
+
+.btn{
+    text-align: right;
+    margin-right: 200px;
+   
+}
+
+.btn button{
+    padding: 10px 15px;
+    margin-bottom : 50px; 
+}
+/* About Me 스타일 */
+#profile section{
+    margin: 30px 10px;
+}
+#profile section h2{margin: 10px;
+color: pink;}
+
+#profile section div{
+    margin: 20px 10px 40px 10px;
+}
+#profile ul li{margin: 16px 50px;}
+
+#intro{height: 350px;}
+#intro h1{font-size: 2;}
+#intro p{line-height: 1;}
+#into img{
+    float: left;
+    margin-right: 30px;
+    
+
+}
+#intro a{text-decoration: none;
+color: green}
+#intro a:hover{text-decoration: underline;
+    color: red;
+    background-color: aquamarine;
+}
+#career ul li:nth-child(1){
+    color: #f00;
+   
+}
+#skill ul li a {text-decoration: none;
+color: #00f;}
+#skill ul li a:hover{text-decoration: underline;
+background-color: black;}
