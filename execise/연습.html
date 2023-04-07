@@ -1,23 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-       
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    #container{
+      width: 960px;
+      margin: 0 auto;
+    }
+
+    nav{
+      width: 100%;
+      height: 80px;
+      text-align: center;
+    }
+
+    nav ul{
+      list-style: none;
+      border-bottom: 2px solid black;
+      margin: 10px 20px;
+    }
+
+    ul li{
+      display: inline-block;
+      margin: 10px 20px;
+    }
+
+    ul li a:link, a:visited
+    {color: black;
+      pad: 10px;
+      font-size: 20px;
+      text-decoration: none;
+
+    }
+
+    ul li a:hover, a:focus{
+      background-color: pink;
+      color: olive;
+    }
+
+    ul li a:active{
+      background-color: beige;
+    }
+
+  </style>
 </head>
 <body>
-  <form action="#.jsp" method="post">
-    <fieldset>
-        <legend>사용자이름</legend>
-        <label>이름 <input type="text" value="이름못지움"readonly></label>
-    </fieldset>
+  <div id="container">
+    <nav>
+      <ul>
+        <li><a href="#">이용안내</a></li>
+        <li><a href="#">객실안내</a></li>
+        <li><a href="#">예약방법</a></li>
+        <li><a href="#">요금안내</a></li>
+        <li><a href="#">예약하기</a></li>
+        
+        
+
+
+      </ul>
+
+
+    </nav>
 
 
 
-  </form>
+  </div>
+ 
 </body>
 </html>

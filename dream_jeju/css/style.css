@@ -128,6 +128,7 @@ color: #444;}
 
 #prodoct h2{
     margin-bottom: 2px;
+    text-align: center;
 }
 
 #description{
@@ -206,16 +207,25 @@ color: #444;}
 .btn button{
     padding: 10px 15px;
     margin-bottom : 50px; 
+    cursor: pointer;
 }
 /* About Me 스타일 */
+
+h1{
+    color: palevioletred;
+}
 #profile section{
     margin: 30px 10px;
 }
 #profile section h2{margin: 10px;
 color: pink;}
 
+#profile section div img{margin-bottom: 15px;
+border: 1px solid brown;
+border-radius: 5px;}
+
 #profile section div{
-    margin: 20px 10px 40px 10px;
+    margin: 30px 10px 40px 10px;
 }
 #profile ul li{margin: 16px 50px;}
 
@@ -239,6 +249,36 @@ color: green}
    
 }
 #skill ul li a {text-decoration: none;
-color: #00f;}
+color: palevioletred;}
 #skill ul li a:hover{text-decoration: underline;
 background-color: black;}
+
+/* register */
+
+#register section h2{
+        margin: 30px 10px;
+        text-align: center;
+}
+
+#register #tbl_write{
+    border: 1.5px solid #ccc;
+    border-collapse: collapse;
+    width: 700px;
+    margin: 0 auto 100px ;
+}
+
+#tbl_write input[type="text"]
+{width: 650px;
+    height: 25px;}
+
+
+#tbl_write textarea{width: 650px;
+;}
+#tbl_write input[type="submit"],
+input[type="reset"]{
+    width: 100px;
+    height: 50px;
+}
+#tbl_write tr:last-child{text-align: center;}
+
+

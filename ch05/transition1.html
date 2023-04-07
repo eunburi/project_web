@@ -20,9 +20,14 @@
             transition-duration: 1s,2s; */
 
             /* 한번에 속성 설정 - 콤마(,)로 구분 */
-            transition: width, height, background-color 1s, 2s, 0.5s;
+            /* transition: width, height, background-color 1s, 2s, 0.5s; */
             /* 모든 속성에 대한 시가을 똑같이 설정 */
-            /* transition: all 0.5s; */
+            transition: all 2s ease-in-out;
+            /*
+                ease-in : 느리게 시작
+                ease-out : 느리게 끝남
+                ease-in-out : 느리게 시작 느리게 끝남
+            */
         }
         .tr:hover{
             width: 200px;
