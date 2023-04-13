@@ -1,0 +1,199 @@
+/* 전체 스타일 */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap');
+
+*{margin: 0 auto;padding: 0;}
+
+/* 16:9 화면상 1600px로 설정 */
+#container
+{width:100%; margin: 0 auto;}
+
+main{
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box; 
+}
+
+/* header영역 스타일 */
+header{height: 80px;background-color: #000}
+
+header #logo{
+    width: 300px;
+    float: left;
+    padding-left: 30px;
+    line-height: 70px;
+}
+
+#logo h1 a{
+    color: white;
+    text-decoration: none;
+    font-family: Merienda;}
+
+nav{
+    width: 800px;
+    float: right;
+    line-height: 80px;
+    /* text-align: left;
+    margin-right: 100px; */
+    
+}
+nav #topMenu {list-style: none;}
+
+#topMenu li{
+    display: inline-block;
+padding: 0 20px;}
+
+#topMenu li a{
+    color: white;
+    text-decoration: none;
+}
+
+#topMenu li a:hover{
+    color: #fdfd96;
+}
+
+/* main 영역 */
+#contents section{
+    margin: 30px 10px;
+}
+
+section div{ margin: 10px;}
+
+section p{line-height: 2;}
+/* section의 높이를 지정해야함 */
+#healing, #activity{height: 300px;}
+
+#healing img, #activity img{
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;}
+
+.schedule h3{
+    margin-top: 20px;
+}
+
+.schedule ul li{
+  list-style: none;
+  margin: 10px;
+}
+
+#sightseeing ul li{
+    list-style: square;
+    margin: 10px 30px;
+}
+#sightseeing ul li a{text-decoration: none;
+color: #036635;}
+
+#sightseeing ul li a:hover{
+text-decoration: underline;
+color: #fdfd96;}
+
+/* footer 영역 스타일 */
+footer{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    border-top: 2px solid #555;
+}
+
+footer #bottomMenu{ list-style: none;
+padding: 20px;}
+
+#bottomMenu li{
+    display: inline-block;
+    margin: 0;
+    border-right: 1px solid #444; 
+    padding: 0 10px;
+}
+#bottomMenu li a{text-decoration: none;
+color: #444;}
+
+#bottomMenu li:last-child{
+    border: none;}
+/* #bottomMenu li:nth-child(4){border: none;} */
+
+/* About Me 스타일 */
+
+h1{
+    color: gray;
+    text-align: center;
+}
+#profile section{
+    margin: 30px 10px;
+}
+#profile section h2{margin: 0px;
+color: black;
+text-align: center;}
+
+#profile section div img{margin-bottom: 15px;
+/*border: 1px solid black;
+border-radius: 50%;*/}
+
+#profile section div{
+    margin: 30px 10px 40px 10px;
+}
+#profile ul li{margin: 16px 50px;}
+
+#intro{height: 350px;}
+#intro h1{font-size: 2;}
+#intro p{line-height: 1;}
+#into img{
+    float: left;
+    margin-right: 30px;
+    
+
+}
+#intro a{text-decoration: none;
+color: green}
+#intro a:hover{text-decoration: underline;
+    color: red;
+    background-color: aquamarine;
+}
+#career ul li:nth-child(1){
+    color: #f00;
+   
+}
+#skill ul li a {text-decoration: none;
+color: palevioletred;}
+#skill ul li a:hover{text-decoration: underline;
+background-color: black;}
+
+/* 수정 */
+
+#img{
+    color: black;
+    text-align: center;}
+
+#icon{
+    margin: 10px 10px 30px 10px;
+}
+
+
+
+@media screen and (min-width : 780px) {
+    body{background : white;}
+    header{height: 100px;}
+    
+}
+
+/* 768px 이상 ~ 960px 미만 */
+@media screen and (min-width : 768px){
+    body{
+        background : #ccc;
+    }
+}
+ /* 960px 이상 */
+@media screen and (min-width : 960px){
+    body{
+        background : rgb(247, 227, 230);
+    }
+}
+
+
+
+#career section h2{margin: 10px;
+color: black;
+text-align: center;}
+
+
+
+
